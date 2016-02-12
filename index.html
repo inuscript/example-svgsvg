@@ -6,6 +6,27 @@
     <link rel="stylesheet" href="sample.css" media="screen" title="no title" charset="utf-8">
   </head>
   <body>
+    <svg width="16" height="16" viewBox="0 0 18 18">
+      <use xlink:href="star.svg#star" 
+        x=1 y=1
+      fill="transparent" stroke="orange" />
+      <svg 
+        width="8" height="16"
+        x=1 y=1
+        preserveAspectRatio="slice xMaxYMax">
+          <use xlink:href="star.svg#star" fill="orange" stroke="orange"/>
+      </svg>
+    </svg>
+
+    <svg width="16" height="16">
+      <svg width="8" height="16" viewBox="0 0 9 18">
+        <use x="1" y="1" xlink:href="star.svg#star" fill="orange" stroke="orange" />
+      </svg>
+      <svg width="8" height="16" viewBox="0 0 9 18" x=8>
+        <use y=1 x="-8" xlink:href="star.svg#star" fill="transparent" stroke="orange"/>
+      </svg>
+    </svg>
+
     <svg width="16" height="16" viewBox="0 0 16 16">
       <svg 
         width="8" height="16"
@@ -16,8 +37,32 @@
         x="8"
         width="8" height="16"
         preserveAspectRatio="slice xMaxYMax">
-        <use x="-8" xlink:href="star.svg#star" fill="gray" />
+        <use x="-8" xlink:href="star.svg#star" fill="#ddd" />
       </svg>
     </svg>
+    <!-- <svg width="16" height="16" viewBox="0 0 18 18">
+      <use xlink:href="star.svg#star" fill="transparent" stroke="orange" 
+      x=1 y=1 />
+      <svg  viewBox="0 0 9 18" x=8>
+        <use y=1 x="-8" xlink:href="star.svg#star" fill="orange" stroke="orange"/>
+      </svg>
+    </svg> -->
+    <svg width="16" height="16" viewBox="0 0 16 16">
+      <svg width="8" height="16" viewBox="0 0 8 16">
+        <use xlink:href="star.svg#star" fill="orange" />
+      </svg>
+      <svg width="8" height="16" viewBox="0 0 8 16" x=8>
+        <use x="-8" xlink:href="star.svg#star" fill="#ddd" />
+      </svg>
+    </svg>
+    <svg width="16" height="16" viewBox="0 0 16 16">
+      <use xlink:href="star.svg#star" fill="orange" />
+      <svg width="8" height="16" viewBox="0 0 8 16" x=8>
+        <use x="-8" xlink:href="star.svg#star" fill="#ddd" />
+      </svg>
+    </svg>
+
+
+
   </body>
 </html>
