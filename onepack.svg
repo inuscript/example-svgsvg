@@ -1,0 +1,13 @@
+<svg version="1.1"
+     baseProfile="full"
+     xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="gradient2">
+      <stop offset="0.2" stop-color="yellow"/>
+      <stop offset="0.8" stop-color="green"/>
+    </linearGradient>
+    <g id="circle-pack">
+      <circle cx="100" cy="100" r="50"/>
+    </g>
+  </defs>
+</svg>

@@ -1,0 +1,15 @@
+{
+  "name": "example-svgsvg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "static ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-static": "^0.7.7"
+  }
+}
